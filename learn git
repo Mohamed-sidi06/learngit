@@ -74,6 +74,13 @@ Imagine you have a folder on your computer that contains all your project files.
 					"	git merge " 
 				merge use to upload a file frome a branche to the branche master 
 		you can create a branche from a branche . 
+						how to merge : 
+			go the branch that you want to merge to : 
+			lets say i have two branch br1 and br2 : 
+			in the br2 i have a file that i want ot merge to my br1 : 
+			i go to br1 :
+								git merge br2 
+
 		but to avoid the conflict we must use : 
 		an app called : Diffmerge
 		then tap :  
