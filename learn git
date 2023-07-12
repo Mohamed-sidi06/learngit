@@ -17,6 +17,10 @@ if you want to make git know the file or the directory tap :
 	
 	the first m : for commint the file  (title)
 	the second m : for  the description 
+			to update an existing  file :
+
+		git -am "file name" 
+		
 	------------------------------------------------
 know we generate a key ssh and add it to the ssh of github : 
 ssh-keygen -t rsa -b 4096 -C "mo.sidi.239@gmail.com"
@@ -56,5 +60,28 @@ Imagine you have a folder on your computer that contains all your project files.
 				push :
 				fetch :  mean it's succed 
 			4)git push -u origin main : 
+
+
+---------------------------------------
+					"  git branch "
+				a brinch represent an independent line of developpement 
+		how to create a branche : 
+			git checkout -b branche1 
+						craet a new branch called branch1
+		to check all the brinch : 
+			git branch 
+--------------------------------------------------
+					"	git merge " 
+				merge use to upload a file frome a branche to the branche master 
+		you can create a branche from a branche . 
+		but to avoid the conflict we must use : 
+		an app called : Diffmerge
+		then tap :  
+					git mergetool
+		this commed will show you three part : 
+		in left you will the branch taht we want to merge it(merge2) . 
+		in the right you wil see the the first merge  (merge1)
+
+		
 			
 
