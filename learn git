@@ -1,0 +1,60 @@
+clone 
+add 
+commit 
+push 
+pull 
+-----------------------------
+git clone : to start in a folder already exist in the github 
+git status : show me all the file that have been deleted or created  bu haven't been saved in a comment yet .
+untacked file : mean that the sys of git deosn't know a bout the file yet . 
+if you want to make git know the file or the directory tap :
+ 
+	git add file.py 
+	
+		Know they need to be commited : 
+	git commit -m "why and wht did you make those change" , -m "some description " 
+	
+	
+	the first m : for commint the file  (title)
+	the second m : for  the description 
+	------------------------------------------------
+know we generate a key ssh and add it to the ssh of github : 
+ssh-keygen -t rsa -b 4096 -C "mo.sidi.239@gmail.com"
+
+
+
+ssh-keygen -t -rsa -b 4096 -c "mo.sidi.239@gmial.com"
+
+
+ssh-keygen: This command is used to generate SSH key pairs.
+-t rsa: Specifies the type of key to generate, in this case, RSA.
+-b 4096: Sets the key length to 4096 bits. Larger key lengths offer increased security but take longer to generate.
+-C "mo.sidi.239@gmail.com": Adds a comment to the key, typically an email address used for identification purposes.
+
+ 
+ -----------------------
+config the username and the password on git . 
+git config user.name "Your Name"
+git config user.email "your-email@example.com"
+-------------
+git log : 	to see all the log 
+git branch : to see all the branche 
+-----
+		push 
+git push origin main 
+-----------------
+
+we were talking about if we want to start a file in an existing reposit ; but wht if want to add an exesting folder from vscode to my git :
+first go the folder that we want to add and tap : 
+					don't forget to add the file and to commit it to the repos .
+			1)git init
+Imagine you have a folder on your computer that contains all your project files. By running "git init" inside that folder, you're creating a special place where Git can store information about your project's history and changes. 
+			2)git remote add origin (URL of the repository  taht you create) .
+			3)how to verified : 
+				you can verified by taping : 
+				git -v : 
+				push :
+				fetch :  mean it's succed 
+			4)git push -u origin main : 
+			
+
